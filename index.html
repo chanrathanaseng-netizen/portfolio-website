@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SNAC Team Portfolio | Passerelles Numériques Cambodia</title>
+<meta name="description" content="Team portfolio of five SNAC students at PNC: networking, Linux servers, databases and cybersecurity. Term 2 project, 19–30 Oct 2026.">
+<meta property="og:title" content="SNAC Team Portfolio | PNC Cambodia">
+<meta property="og:description" content="Five students, one private cloud, two weeks of real infrastructure work.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="images/hero.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230B2545'/%3E%3Ctext x='16' y='22' font-size='16' text-anchor='middle' fill='%23F0B429' font-family='monospace'%3E%3E_%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Poppins:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="loader" aria-hidden="true"><div class="logo-mark"><i class="fa-solid fa-terminal"></i> SNAC</div><div class="bar"><i></i></div></div>
+<div id="progress"></div>
+
+<div class="topbar"><div class="wrap">
+  <span><i class="fa-solid fa-envelope"></i> Chanrathana.seng@fellow.passerellesnumeriques.org</span>
+  <span><i class="fa-solid fa-phone"></i> 090 393 760</span>
+  <span><i class="fa-solid fa-location-dot"></i> Phnom Penh, Cambodia</span>
+  <span class="soc"><a href="https://www.facebook.com/" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a><a href="https://www.linkedin.com/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a><a href="https://github.com/" aria-label="GitHub"><i class="fa-brands fa-github"></i></a></span>
+</div></div>
+
+<header id="nav"><div class="wrap">
+  <a href="#home" class="brand"><img src="images/logo.png" alt="PNC logo" onerror="this.remove()"><b>SNAC <em>Team</em></b></a>
+  <button id="burger" aria-label="Toggle menu" aria-expanded="false"><i></i><i></i><i></i></button>
+  <nav id="menu" aria-label="Main">
+    <a href="#home">Home</a><a href="#about">About</a><a href="#team">Team</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+    <button id="theme" class="icon-btn" aria-label="Toggle dark mode"><i class="fa-solid fa-moon"></i></button>
+    <a href="#contact" class="btn gold sm">Let's Connect</a>
+  </nav>
+</div></header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-bg"></div><canvas id="fx" aria-hidden="true"></canvas>
+  <div class="wrap slides">
+    <div class="slide on">
+      <h1>Five students. One cloud. <span class="hl">Real</span> infrastructure.</h1>
+      <p class="mono">We are <span id="typed"></span><span class="caret">|</span></p>
+      <p>The SNAC Term 2 team at PNC Cambodia builds, secures and documents a full IT environment on real devices.</p>
+      <div class="cta"><a class="btn gold" href="#team">Meet the Team</a><a class="btn ghost" href="#projects">View Projects</a></div>
+    </div>
+    <div class="slide">
+      <h1>Our goal: learn by <span class="hl">doing</span>.</h1>
+      <p>Practice on real devices, sharpen our searching skills and gain project-management experience in two weeks, 19–30 October 2026.</p>
+      <div class="cta"><a class="btn gold" href="#about">About the Project</a><a class="btn ghost" href="#built">What We Built</a></div>
+    </div>
+    <div class="slide">
+      <h1>Our stack: Cisco, Linux, <span class="hl">Windows</span> and Moodle.</h1>
+      <p>Switches and routers, Windows Server 2022, Ubuntu with Apache2 and MariaDB, client laptops and a customized Moodle LMS.</p>
+      <div class="cta"><a class="btn gold" href="#skills">See Skills</a><a class="btn ghost" href="#contact">Contact Us</a></div>
+    </div>
+  </div>
+  <div class="ctrl"><button id="prev" aria-label="Previous slide"><i class="fa-solid fa-chevron-left"></i></button><div id="dots"></div><button id="next" aria-label="Next slide"><i class="fa-solid fa-chevron-right"></i></button></div>
+</section>
+
+<div class="wrap"><div id="features" class="strip"></div></div>
+
+<section id="about" class="sec"><div class="wrap two">
+  <div class="media reveal"><div class="ph"><img src="images/hero.jpg" alt="Our team lab at PNC" loading="lazy" onerror="this.remove()"></div>
+    <div class="term" aria-label="Terminal animation"><div class="dots3"><i></i><i></i><i></i></div><pre id="term"></pre></div></div>
+  <div class="reveal">
+    <h2>About the SNAC Term 2 Project</h2>
+    <p>Five groups share one Proxmox private cloud in Room B31. Over two weeks (19–30 October 2026), each group designs, builds and operates a complete IT environment.</p>
+    <ul class="ticks"><li>Practice on real devices</li><li>Improve searching skills</li><li>Gain project-management experience</li></ul>
+    <div class="stats">
+      <div><b data-count="5">0</b><span>Members</span></div><div><b data-count="2">0</b><span>Weeks</span></div>
+      <div><b data-count="30">0</b><span>Hours</span></div><div><b data-count="100" data-suf="%">0</b><span>Teamwork</span></div>
+    </div>
+  </div>
+</div></section>
+
+<section id="built" class="sec alt"><div class="wrap"><h2 class="c reveal">What We Built</h2><div id="builtGrid" class="grid3"></div></div></section>
+
+<section id="team" class="sec"><div class="wrap"><h2 class="c reveal">Meet the Team</h2><div id="teamGrid" class="grid5"></div></div></section>
+
+<section id="skills" class="sec alt"><div class="wrap"><h2 class="c reveal">Skills</h2><div id="skillTabs" class="tabs c" role="tablist"></div><div id="skillBars" class="bars reveal"></div></div></section>
+
+<section id="projects" class="sec"><div class="wrap"><h2 class="c reveal">Projects</h2>
+  <div id="filters" class="tabs c"></div><div id="projGrid" class="grid3"></div>
+  <h3 class="c gal-h reveal">Project gallery</h3><div id="gallery" class="gallery"></div></div></section>
+
+<section class="sec alt"><div class="wrap"><h2 class="c reveal">Career goals &amp; student life</h2><div id="career" class="grid3"></div></div></section>
+
+<section class="cta-band"><div class="wrap reveal"><h2>Ready to work with us?</h2><p>Internships, projects and learning opportunities are all welcome.</p><a class="btn gold" href="#contact">Let's Connect</a></div></section>
+
+<section id="contact" class="sec"><div class="wrap"><h2 class="c reveal">Contact</h2>
+  <div class="two"><div id="contactCards" class="cards2"></div>
+  <form id="form" class="card form reveal">
+    <label>Name<input name="n" required autocomplete="name"></label>
+    <label>Email<input type="email" name="e" required autocomplete="email"></label>
+    <label>Message<textarea name="m" rows="4" required></textarea></label>
+    <button class="btn gold" type="submit">Send message</button>
+  </form></div></div></section>
+</main>
+
+<footer><div class="wrap fgrid">
+  <div><h4>SNAC Team</h4><p>Five SNAC students at Passerelles Numériques Cambodia, building secure and reliable IT systems.</p></div>
+  <div><h4>Quick links</h4><a href="#about">About</a><a href="#team">Team</a><a href="#skills">Skills</a><a href="#projects">Projects</a></div>
+  <div><h4>Project</h4><p>SNAC Term 2<br>Room B31 · Proxmox cloud<br>19–30 Oct 2026</p></div>
+  <div><h4>Contact</h4><p>Chanrathana.seng@fellow.passerellesnumeriques.org<br>090 393 760<br>Phnom Penh</p>
+    <form id="fform" class="fsend"><input type="email" name="e" placeholder="Your email" aria-label="Your email" required><button aria-label="Send message"><i class="fa-solid fa-paper-plane"></i></button></form></div>
+</div><p class="copy">© 2026 SNAC Team · PNC Cambodia</p></footer>
+
+<button id="top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+<div id="modal" role="dialog" aria-modal="true" aria-labelledby="mTitle" hidden><div class="mbox"><button id="mClose" aria-label="Close profile"><i class="fa-solid fa-xmark"></i></button><div id="mBody"></div></div></div>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
